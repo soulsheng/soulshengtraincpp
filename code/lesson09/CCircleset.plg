@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CCircleset - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\508-oldM\AppData\Local\Temp\RSP57D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/CCircleset.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\LiuSS\doc\2012CPPÅàÑµ\v14_plan_making\code\CCircleset\CCircle.cpp"
+"C:\LiuSS\doc\2012CPPÅàÑµ\v14_plan_making\code\CCircleset\CBall.cpp"
+"C:\LiuSS\doc\2012CPPÅàÑµ\v14_plan_making\code\CCircleset\CCilinder.cpp"
+]
+Creating command line "cl.exe @"C:\Users\508-oldM\AppData\Local\Temp\RSP57D.tmp"" 
+Creating temporary file "C:\Users\508-oldM\AppData\Local\Temp\RSP57E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/CCircleset.pdb" /debug /machine:I386 /out:"Debug/CCircleset.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\CCircle.obj"
+".\Debug\CBall.obj"
+".\Debug\CCilinder.obj"
+]
+Creating command line "link.exe @"C:\Users\508-oldM\AppData\Local\Temp\RSP57E.tmp""
+<h3>Output Window</h3>
+Compiling...
+CCircle.cpp
+c:\liuss\doc\2012cppÅàÑµ\v14_plan_making\code\ccircleset\ccircle.cpp(9) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\liuss\doc\2012cppÅàÑµ\v14_plan_making\code\ccircleset\ccircle.cpp(15) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+CBall.cpp
+c:\liuss\doc\2012cppÅàÑµ\v14_plan_making\code\ccircleset\cball.cpp(14) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\liuss\doc\2012cppÅàÑµ\v14_plan_making\code\ccircleset\cball.cpp(20) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+CCilinder.cpp
+c:\liuss\doc\2012cppÅàÑµ\v14_plan_making\code\ccircleset\ccilinder.cpp(14) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\liuss\doc\2012cppÅàÑµ\v14_plan_making\code\ccircleset\ccilinder.cpp(20) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+CCircleset.exe - 0 error(s), 6 warning(s)
+</pre>
+</body>
+</html>
