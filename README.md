@@ -8,9 +8,8 @@ soulshengtraincpp
 sliksvn版本历史：
 
 Message:
-----
 第九课： STL类库 复习上一课、动态数组、字符串类、1个示例
-
+----
 示范：
 例1  圆参数求解 类实现
 例2	3数排序 类实现
