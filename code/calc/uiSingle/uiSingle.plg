@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: uiSingle - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/uiSingle.res" /d "_DEBUG" /d "_AFXDLL" "C:\LiuSS\code\calc\uiSingle\uiSingle.rc"" 
+Creating temporary file "C:\Users\508-oldM\AppData\Local\Temp\RSP74F1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/uiSingle.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\LiuSS\code\calc\uiSingle\uiSingle.cpp"
+"C:\LiuSS\code\calc\uiSingle\MainFrm.cpp"
+"C:\LiuSS\code\calc\uiSingle\uiSingleDoc.cpp"
+"C:\LiuSS\code\calc\uiSingle\uiSingleView.cpp"
+]
+Creating command line "cl.exe @"C:\Users\508-oldM\AppData\Local\Temp\RSP74F1.tmp"" 
+Creating temporary file "C:\Users\508-oldM\AppData\Local\Temp\RSP74F2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/uiSingle.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\LiuSS\code\calc\uiSingle\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\508-oldM\AppData\Local\Temp\RSP74F2.tmp"" 
+Creating temporary file "C:\Users\508-oldM\AppData\Local\Temp\RSP74F3.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/uiSingle.pdb" /debug /machine:I386 /out:"Debug/uiSingle.exe" /pdbtype:sept 
+.\Debug\uiSingle.obj
+.\Debug\StdAfx.obj
+.\Debug\MainFrm.obj
+.\Debug\uiSingleDoc.obj
+.\Debug\uiSingleView.obj
+.\Debug\uiSingle.res
+]
+Creating command line "link.exe @"C:\Users\508-oldM\AppData\Local\Temp\RSP74F3.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+uiSingle.cpp
+MainFrm.cpp
+uiSingleDoc.cpp
+uiSingleView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+uiSingle.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

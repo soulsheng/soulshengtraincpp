@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: jisuanqi ui - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/jisuanqi ui.res" /d "_DEBUG" /d "_AFXDLL" "C:\LiuSS\¡Ÿ ±\@∫ÆºŸ≈‡—µJava2013\soulshengtraincpp\code\calc\jisuanqi ui\jisuanqi ui.rc"" 
+Creating temporary file "C:\Users\508-oldM\AppData\Local\Temp\RSP399B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/jisuanqi ui.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\LiuSS\¡Ÿ ±\@∫ÆºŸ≈‡—µJava2013\soulshengtraincpp\code\calc\jisuanqi ui\jisuanqi ui.cpp"
+"C:\LiuSS\¡Ÿ ±\@∫ÆºŸ≈‡—µJava2013\soulshengtraincpp\code\calc\jisuanqi ui\jisuanqi uiDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\508-oldM\AppData\Local\Temp\RSP399B.tmp"" 
+Creating temporary file "C:\Users\508-oldM\AppData\Local\Temp\RSP399C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/jisuanqi ui.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\LiuSS\¡Ÿ ±\@∫ÆºŸ≈‡—µJava2013\soulshengtraincpp\code\calc\jisuanqi ui\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\508-oldM\AppData\Local\Temp\RSP399C.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/jisuanqi ui.pdb" /debug /machine:I386 /out:"Debug/jisuanqi ui.exe" /pdbtype:sept  ".\Debug\jisuanqi ui.obj" ".\Debug\jisuanqi uiDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\jisuanqi ui.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+jisuanqi ui.cpp
+jisuanqi uiDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+jisuanqi ui.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
