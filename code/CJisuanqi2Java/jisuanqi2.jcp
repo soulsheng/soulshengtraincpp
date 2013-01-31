@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>jisuanqi2</label>
+		<root_path>\</root_path>
+		<output_path>classes\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref/>
+		<compiler_ref/>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items/>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>jisuanqi2</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<fileitem>
+				<path>src\CJisuanqi.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\jisuanqi2.java</path>
+				<folder>src</folder>
+			</fileitem>
+			<fileitem>
+				<path>src\jisuanqi2Frame.java</path>
+				<folder>src</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks>
+		<todotaskitem>
+			<description>TODO: Check if it is safe to close the application</description>
+			<filepath>src\jisuanqi2Frame.java</filepath>
+			<line>113</line>
+			<timestamp>1359601389</timestamp>
+		</todotaskitem>
+	</tasks>
+</project>
